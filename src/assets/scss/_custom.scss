@@ -1,0 +1,618 @@
+/*Cargo Delivers styles*/
+
+
+.outlookLink span {
+  color:#010334 !important;
+  border-bottom-width:0 !important;
+  border-bottom-style:none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-right {
+  th {
+    text-align: right;
+  }
+}
+
+.header-text-style {
+  th {
+    //text-align: right!important;
+    strong {
+      text-align: right;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #32343A;
+      text-transform: uppercase;
+      margin-right: 10px;
+    }
+    border-bottom: 1px solid #40668C;
+  }
+}
+
+.header-custom {
+  img {
+    margin-left: 12px;
+  }
+}
+
+
+.email-warning, .contact-us-custom {
+  a{
+    color: #010334;
+  }
+  background: #EBEBEB;
+  th {
+    color: #010334;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+}
+.email-warning{
+  th {
+    color: #767676;
+  }
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+}
+
+//.img-bg{
+//  background: url("http://gdurl.com/ERz1") no-repeat;
+//  background-size: cover;
+//}
+
+.header-image-custom {
+
+  .columns {
+    background: transparent !important;
+  }
+
+  background: url("https://gallery.mailchimp.com/839eb9a527740392c0f70dd37/images/fcd97ab9-4825-4a09-b617-4cc10b4c8930.jpg");
+  background-size: cover;
+  th {
+    padding-left: 8px;
+  }
+
+  h1 {
+    width: 90%;
+    color: #ffffff;
+    margin: 30px 0 25px;
+    padding: 8px 0;
+    font-size: 50px;
+    line-height: 70px;
+    text-transform: uppercase;
+    //border-top: 1px solid #ffffff;
+    //border-bottom: 1px solid #ffffff;
+
+    .change-color {
+      color: #072752;
+    }
+  }
+  p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    h1 {
+      font-size: 50px !important;
+      line-height: 60px !important;
+      margin: 30px 0 25px !important;
+    }
+  }
+}
+
+.before-header {
+  background: #ffffff;
+}
+
+.bg-grey {
+  background: #EBEBEB;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+table.spacer {
+  background-color: transparent !important;
+}
+
+.bg-dark-gray {
+
+  background: #2E2F34;
+  p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+}
+
+.add-box-shadow {
+
+  .columns {
+    > table {
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.30), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    }
+  }
+
+}
+
+.bg-dark-blue {
+
+  background: #082F5B;
+}
+
+.no-padding {
+  padding: 0 !important;
+  td {
+    padding: 0 !important;
+  }
+}
+
+.inline-img {
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  //padding-left: 50px;
+  margin-top: 3px;
+}
+
+.text-bold {
+  color: #2E2F34 !important;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text-blue {
+  color: #082F5B !important;
+}
+
+.text-red {
+  color: #C9093C !important;
+}
+
+.remove-bottom-padding {
+  th.columns {
+    padding-bottom: 0 !important;
+  }
+}
+
+.content-wrapper {
+  .columns {
+    table {
+      background: #ffffff;
+
+      h4 {
+        margin-left: 19px;
+        margin-right: 19px;
+        text-align: left;
+        color: #2E2F34;
+      }
+      p {
+        margin-left: 19px;
+        margin-right: 19px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 22px;
+        color: #767676;
+      }
+
+    }
+  }
+  .content {
+
+    th.columns {
+      padding-bottom: 0 !important;
+
+    }
+    //background: #EBEBEB;
+
+    padding-bottom: 0 !important;
+    background: #ffffff;
+
+    h4 {
+      text-align: center;
+      color: #2E2F34;
+    }
+    p {
+      padding: 0 15px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      color: #767676;
+    }
+  }
+
+}
+
+.social-icons {
+  p {
+    text-align: center!important;
+    color: #2E2F34 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+  }
+
+}
+
+table.button table td a {
+  border: 1px solid $custom-primary;
+  border-radius: 0;
+  //padding-right: 70px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  width: 170px;
+  &:hover {
+    border: 1px solid $custom-primary;
+  }
+}
+
+
+
+table.menu td.menu-item, table.menu th.menu-item {
+  padding: 0;
+}
+
+.block-of-articles {
+
+  h4 {
+    text-align: left;
+    color: #2E2F34;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    color: #767676;
+  }
+
+  .inline-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 35px;
+    margin-bottom: 2px;
+  }
+}
+
+.block-of-articles-info {
+  h4 {
+    text-align: left;
+    color: #2E2F34;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+.block-title {
+  text-align: center;
+  color: #05082E;
+  font-size: 30px;
+  line-height: 39px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #23AEE5;
+}
+
+.add-radius-and-overlay {
+  > table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+}
+.rounded-border{
+  border-radius: 15px;
+}
+
+.block-of-articles-img-only {
+  .rounded {
+    padding: 30px;
+  }
+  tr {
+    a {
+      text-transform: uppercase;
+      display: inline-block;
+      padding-left: 10px;
+      width: 100% !important;
+      overflow: hidden;
+      border-radius: 8px !important;
+      color: #ffffff;
+      border: none !important;
+      padding: 0 !important;
+    }
+    img {
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+
+    }
+
+    span {
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 0 !important;
+      color: #ffffff;
+      font-weight: bolder;
+      font-size: 14px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+}
+.widget-small-text-link{
+  p{
+    text-align: left!important;
+  }
+
+}
+.widget-text-image{
+  h4{
+    text-align: left!important;
+    margin-left: 19px;
+  }
+  p{
+    text-align: left!important;
+  }
+}
+.widget-block-images {
+
+  h4{
+    text-align: center!important;
+    margin-left: 19px;
+  }
+  p {
+    text-align: center!important;
+    color: #2E2F34 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+  }
+}
+
+.footer {
+  p {
+    margin-bottom: 5px;
+    Margin-bottom: 5px;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .aligne-bottom {
+    padding-top: 20px;
+  }
+}
+
+.text-blue {
+  a {
+    color: #082F5B !important;
+  }
+}
+
+.text-red {
+  a {
+    color: #C9093C !important;
+  }
+}
+
+.below-footer {
+
+  a {
+    margin-right: 10px;
+    text-transform: inherit !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    border: none !important;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto !important;
+  }
+  padding-bottom: 0;
+  p {
+    text-align: left !important;
+  }
+  .first-link {
+    display: inline-block;
+    width: 80px;
+
+  }
+  .second-link {
+    width: 80px;
+    display: inline-block;
+  }
+
+  .second {
+    padding-bottom: 0;
+    p {
+      text-align: right !important;
+      font-size: 12px;
+    }
+  }
+  td {
+    border: none !important;
+  }
+
+  .footer-links {
+    a {
+      text-transform: inherit !important;
+      width: auto !important;
+    }
+
+    .first {
+      [office365] .outlookLink span {
+        color:#C9093C !important;
+        border-bottom-width:0 !important;
+        border-bottom-style:none !important;
+      }
+      a {
+        color: #082F5B;
+      }
+    }
+    .second {
+      a {
+        color: #C9093C;
+      }
+
+    }
+  }
+}
+.rounded-border{
+  a,span{
+    margin-left: 10px;
+    color: #ffffff;
+  }
+}
+
+.add-gradient {
+  display: block!important;
+  padding-bottom: 15px!important;
+  padding-top: 10px;
+  width: 100%;
+
+
+  background: linear-gradient(to bottom, transparent 25%, #0E335E 100%);
+  background: -webkit-linear-gradient(to bottom, transparent 25%, #0E335E 100%);
+  //background: -webkit-gradient(to bottom, transparent 25%, #0E335E 100%);
+
+  //background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(238,241,244,0) 2%, rgba(14,51,94,0.28) 29%, rgba(14,51,94,1) 100%); /* FF3.6-15 */
+  //background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(238,241,244,0) 2%,rgba(14,51,94,0.28) 29%,rgba(14,51,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  //background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(238,241,244,0) 2%,rgba(14,51,94,0.28) 29%,rgba(14,51,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0e335e',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*Cargo Delivers styles ---END*/
+
+/*Investment conference --styles*/
+
+.header-image-custom.investment {
+
+  background: url("https://gallery.mailchimp.com/839eb9a527740392c0f70dd37/images/00cfd448-5158-4d40-b90d-933b5026c670.jpg") #082f5b;
+  background-size: cover;
+  th {
+    padding-left: 8px;
+  }
+
+  h1 {
+    font-weight: 100;
+    width: 90%;
+    color: #ffffff;
+    margin: 40px 0 25px;
+    padding: 8px 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+    //border-top: 1px solid #ffffff;
+    //border-bottom: 1px solid #ffffff;
+
+    .change-color {
+      color: #072752;
+    }
+  }
+  p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+}
+
+.color-blue {
+
+  color: #082F5B !important;
+}
+
+/*Investment conference --styles -END*/
+
+/*Employee Benefits */
+
+.header-image-custom.employee {
+
+  background: url("https://gallery.mailchimp.com/839eb9a527740392c0f70dd37/images/50ab7994-6234-4f35-9824-b847da930554.jpg");
+  background-size: cover;
+
+  h1 {
+    font-weight: 100;
+    width: 70%;
+    color: #ffffff;
+    margin: 40px 0 25px;
+    padding: 8px 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+    //border-top: 1px solid #C1CCD9;
+    //border-bottom: 1px solid #C1CCD9;
+
+    .change-color {
+      color: #072752;
+    }
+  }
+}
+
+.widget-text-with-img {
+  h4 {
+    text-align: left!important;
+    margin-left: 18px;
+    font-size: 22px;
+  }
+  p{
+
+    text-align: left!important;
+  }
+}
+
+/*Employee Benefits ---END */
+
+/* Energy & power */
+
+.header-image-custom.energy {
+  background: url("https://gallery.mailchimp.com/839eb9a527740392c0f70dd37/images/9e64f57b-e13d-4a03-847f-ba93aca810e2.jpg");
+  background-size: cover;
+
+  h1 {
+    font-weight: 100;
+    width: 85%;
+    color: #ffffff;
+    margin: 40px 0 25px;
+    padding: 8px 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+    //border-top: 1px solid #F5C9CD;
+    //border-bottom: 1px solid #F5C9CD;
+
+    .change-color {
+      color: #072752;
+    }
+  }
+}
+
+.widget-text-with-img {
+  h4 {
+    font-size: 22px;
+  }
+}
+
+/*Energy & power ---END */
+
+.button-margin-bottom{
+  margin-bottom: 20px;
+  Margin-bottom:20px;
+}
